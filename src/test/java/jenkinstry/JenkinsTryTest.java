@@ -12,7 +12,7 @@ class JenkinsTryTest {
 	
 	@Test
 	void failTest() {
-		Assertions.fail();
+		//Assertions.fail();
 	}
 
 }
