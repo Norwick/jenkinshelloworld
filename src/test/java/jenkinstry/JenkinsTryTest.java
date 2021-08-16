@@ -9,5 +9,10 @@ class JenkinsTryTest {
 	void test() {
 		Assertions.assertTrue(true);
 	}
+	
+	@Test
+	void failTest() {
+		Assertions.fail();
+	}
 
 }
